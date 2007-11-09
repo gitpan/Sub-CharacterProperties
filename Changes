@@ -4,6 +4,14 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - added requirement for Class::Accessor::Complex
+      - "don't subclass Data::Inherited - not needed"
+    date: 2007-11-09T16:16:20Z
+    tags:
+      - BUGFIX
+    version: 0.02
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - original version
     date: 2007-11-09T14:22:28Z
     tags: []

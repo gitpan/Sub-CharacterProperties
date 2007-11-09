@@ -3,6 +3,7 @@ name 'Sub-CharacterProperties';
 all_from 'lib/Sub/CharacterProperties.pm';
 perl_version '5.006';
 
+requires 'Class::Accessor::Complex';
 requires 'Number::Rangify';
 
 build_requires 'Test::Differences';

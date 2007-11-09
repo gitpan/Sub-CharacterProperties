@@ -6,7 +6,7 @@ use Number::Rangify 'rangify';
 use charnames ':full';
 
 
-use base qw(Class::Accessor::Complex Data::Inherited);
+use base 'Class::Accessor::Complex';
 
 
 __PACKAGE__
@@ -14,7 +14,7 @@ __PACKAGE__
     ->mk_array_accessors(qw(characters));
 
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 
 sub get_ranges {
