@@ -14,7 +14,7 @@ __PACKAGE__
     ->mk_array_accessors(qw(characters));
 
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 
 sub get_ranges {

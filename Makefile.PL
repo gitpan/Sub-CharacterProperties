@@ -1,7 +1,7 @@
 use inc::Module::Install;
 name 'Sub-CharacterProperties';
 all_from 'lib/Sub/CharacterProperties.pm';
-perl_version '5.006';
+perl_version '5.008';
 
 requires 'Class::Accessor::Complex';
 requires 'Number::Rangify';

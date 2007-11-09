@@ -4,6 +4,13 @@ global:
 releases:
   - author: 'Marcel Gruenauer <marcel@cpan.org>'
     changes:
+      - now requires perl 5.8 for charnames::vianame
+    date: 2007-11-09T20:25:11Z
+    tags:
+      - BUGFIX
+    version: 0.03
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
       - added requirement for Class::Accessor::Complex
       - "don't subclass Data::Inherited - not needed"
     date: 2007-11-09T16:16:20Z
