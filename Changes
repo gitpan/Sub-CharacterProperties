@@ -1,0 +1,10 @@
+---
+global:
+  name: Sub-CharacterProperties
+releases:
+  - author: 'Marcel Gruenauer <marcel@cpan.org>'
+    changes:
+      - original version
+    date: 2007-11-09T14:22:28Z
+    tags: []
+    version: 0.01
